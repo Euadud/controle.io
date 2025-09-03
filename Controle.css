@@ -1,0 +1,182 @@
+/* Geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Container de Login */
+#loginContainer {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#loginContainer h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+#loginContainer input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-btn {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #27ae60;
+}
+
+#errorMessage {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Container Principal */
+#mainContainer {
+  display: none;
+  padding: 30px;
+}
+
+/* Título */
+.top-footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.top-footer h1 {
+  margin: 0;
+}
+
+/* Formulário */
+.config {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.config label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.config input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.config button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.config button:hover {
+  background-color: #2980b9;
+}
+
+.export-btn {
+  background-color: #e67e22;
+}
+
+.export-btn:hover {
+  background-color: #d35400;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+/* Usuário Logado */
+.usuario-logado {
+  position: fixed;
+  top: 45px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.usuario-info {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #ecf0f1;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+.icone-usuario {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.seta {
+  margin-left: 8px;
+}
+
+.menu-usuario {
+  margin-top: 5px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.menu-usuario a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+.menu-usuario a:hover {
+  text-decoration: underline;
+}
